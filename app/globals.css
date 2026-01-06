@@ -50,123 +50,123 @@
 :root {
   --radius: 0.5rem;
   
-  /* Luxury Interior Design Palette - Light Mode */
-  /* Warm creamy white background */
-  --background: oklch(0.98 0.008 85);
-  /* Deep charcoal for text */
-  --foreground: oklch(0.25 0.012 265);
+  /* Custom Color Palette */
+  /* Dark blue-gray background */
+  --background: #202239;
+  /* Light beige/cream for text */
+  --foreground: #f0deba;
   
-  /* Warm beige/sandstone cards */
-  --card: oklch(0.96 0.015 75);
-  --card-foreground: oklch(0.25 0.012 265);
+  /* Medium blue-gray for cards */
+  --card: #3e4154;
+  --card-foreground: #f0deba;
   
-  /* Subtle popover */
-  --popover: oklch(0.98 0.008 85);
-  --popover-foreground: oklch(0.25 0.012 265);
+  /* Popover */
+  --popover: #3e4154;
+  --popover-foreground: #f0deba;
   
-  /* Primary: Warm beige/sandstone */
-  --primary: oklch(0.72 0.042 70);
-  --primary-foreground: oklch(0.98 0.008 85);
+  /* Primary: Warm beige */
+  --primary: #cdb08a;
+  --primary-foreground: #202239;
   
-  /* Secondary: Charcoal/deep slate */
-  --secondary: oklch(0.32 0.015 260);
-  --secondary-foreground: oklch(0.98 0.008 85);
+  /* Secondary: Medium blue-gray */
+  --secondary: #3e4154;
+  --secondary-foreground: #f0deba;
   
-  /* Muted: Light beige tones */
-  --muted: oklch(0.93 0.012 75);
-  --muted-foreground: oklch(0.48 0.015 265);
+  /* Muted: Darker blue-gray */
+  --muted: #2a2d3f;
+  --muted-foreground: #cdb08a;
   
-  /* Accent: Muted gold */
-  --accent: oklch(0.68 0.08 75);
-  --accent-foreground: oklch(0.98 0.008 85);
+  /* Accent: Warm beige */
+  --accent: #cdb08a;
+  --accent-foreground: #202239;
   
   /* Destructive - subtle red */
-  --destructive: oklch(0.55 0.18 25);
-  --destructive-foreground: oklch(0.98 0.008 85);
+  --destructive: #d97757;
+  --destructive-foreground: #f0deba;
   
-  /* Borders - soft and subtle */
-  --border: oklch(0.88 0.008 75);
-  --input: oklch(0.88 0.008 75);
+  /* Borders - subtle */
+  --border: #3e4154;
+  --input: #3e4154;
   
-  /* Ring - muted gold */
-  --ring: oklch(0.68 0.08 75);
+  /* Ring - warm beige */
+  --ring: #cdb08a;
   
-  /* Chart colors - earthy tones */
-  --chart-1: oklch(0.72 0.042 70);
-  --chart-2: oklch(0.68 0.08 75);
-  --chart-3: oklch(0.32 0.015 260);
-  --chart-4: oklch(0.62 0.055 65);
-  --chart-5: oklch(0.55 0.035 80);
+  /* Chart colors - warm tones */
+  --chart-1: #cdb08a;
+  --chart-2: #f0deba;
+  --chart-3: #3e4154;
+  --chart-4: #cdb08a;
+  --chart-5: #f0deba;
   
   /* Sidebar */
-  --sidebar: oklch(0.96 0.015 75);
-  --sidebar-foreground: oklch(0.25 0.012 265);
-  --sidebar-primary: oklch(0.72 0.042 70);
-  --sidebar-primary-foreground: oklch(0.98 0.008 85);
-  --sidebar-accent: oklch(0.93 0.012 75);
-  --sidebar-accent-foreground: oklch(0.25 0.012 265);
-  --sidebar-border: oklch(0.88 0.008 75);
-  --sidebar-ring: oklch(0.68 0.08 75);
+  --sidebar: #3e4154;
+  --sidebar-foreground: #f0deba;
+  --sidebar-primary: #cdb08a;
+  --sidebar-primary-foreground: #202239;
+  --sidebar-accent: #2a2d3f;
+  --sidebar-accent-foreground: #f0deba;
+  --sidebar-border: #3e4154;
+  --sidebar-ring: #cdb08a;
 }
 
 .dark {
-  /* Luxury Interior Design Palette - Dark Mode */
-  /* Deep charcoal background */
-  --background: oklch(0.18 0.015 265);
-  /* Warm light text */
-  --foreground: oklch(0.95 0.008 75);
+  /* Custom Color Palette - Dark Mode (same as light for consistency) */
+  /* Dark blue-gray background */
+  --background: #202239;
+  /* Light beige/cream for text */
+  --foreground: #f0deba;
   
-  /* Slightly lighter charcoal for cards */
-  --card: oklch(0.22 0.018 265);
-  --card-foreground: oklch(0.95 0.008 75);
+  /* Medium blue-gray for cards */
+  --card: #3e4154;
+  --card-foreground: #f0deba;
   
   /* Popover */
-  --popover: oklch(0.22 0.018 265);
-  --popover-foreground: oklch(0.95 0.008 75);
+  --popover: #3e4154;
+  --popover-foreground: #f0deba;
   
-  /* Primary: Lighter sandstone for dark mode */
-  --primary: oklch(0.78 0.048 72);
-  --primary-foreground: oklch(0.22 0.018 265);
+  /* Primary: Warm beige */
+  --primary: #cdb08a;
+  --primary-foreground: #202239;
   
-  /* Secondary: Lighter slate */
-  --secondary: oklch(0.38 0.018 260);
-  --secondary-foreground: oklch(0.95 0.008 75);
+  /* Secondary: Medium blue-gray */
+  --secondary: #3e4154;
+  --secondary-foreground: #f0deba;
   
-  /* Muted */
-  --muted: oklch(0.28 0.015 265);
-  --muted-foreground: oklch(0.68 0.008 75);
+  /* Muted: Darker blue-gray */
+  --muted: #2a2d3f;
+  --muted-foreground: #cdb08a;
   
-  /* Accent: Brighter muted gold for dark mode */
-  --accent: oklch(0.75 0.095 78);
-  --accent-foreground: oklch(0.22 0.018 265);
+  /* Accent: Warm beige */
+  --accent: #cdb08a;
+  --accent-foreground: #202239;
   
   /* Destructive */
-  --destructive: oklch(0.62 0.21 28);
-  --destructive-foreground: oklch(0.95 0.008 75);
+  --destructive: #d97757;
+  --destructive-foreground: #f0deba;
   
-  /* Borders - subtle in dark mode */
-  --border: oklch(0.32 0.015 265);
-  --input: oklch(0.32 0.015 265);
+  /* Borders - subtle */
+  --border: #3e4154;
+  --input: #3e4154;
   
-  /* Ring - gold accent */
-  --ring: oklch(0.75 0.095 78);
+  /* Ring - warm beige */
+  --ring: #cdb08a;
   
-  /* Chart colors - adjusted for dark mode */
-  --chart-1: oklch(0.78 0.048 72);
-  --chart-2: oklch(0.75 0.095 78);
-  --chart-3: oklch(0.55 0.025 260);
-  --chart-4: oklch(0.68 0.062 68);
-  --chart-5: oklch(0.62 0.042 82);
+  /* Chart colors - warm tones */
+  --chart-1: #cdb08a;
+  --chart-2: #f0deba;
+  --chart-3: #3e4154;
+  --chart-4: #cdb08a;
+  --chart-5: #f0deba;
   
   /* Sidebar */
-  --sidebar: oklch(0.22 0.018 265);
-  --sidebar-foreground: oklch(0.95 0.008 75);
-  --sidebar-primary: oklch(0.78 0.048 72);
-  --sidebar-primary-foreground: oklch(0.22 0.018 265);
-  --sidebar-accent: oklch(0.28 0.015 265);
-  --sidebar-accent-foreground: oklch(0.95 0.008 75);
-  --sidebar-border: oklch(0.32 0.015 265);
-  --sidebar-ring: oklch(0.75 0.095 78);
+  --sidebar: #3e4154;
+  --sidebar-foreground: #f0deba;
+  --sidebar-primary: #cdb08a;
+  --sidebar-primary-foreground: #202239;
+  --sidebar-accent: #2a2d3f;
+  --sidebar-accent-foreground: #f0deba;
+  --sidebar-border: #3e4154;
+  --sidebar-ring: #cdb08a;
 }
 
 @layer base {
@@ -249,16 +249,16 @@
 
   /* Subtle borders */
   .border-luxury {
-    border: 1px solid oklch(0.88 0.008 75 / 0.5);
+    border: 1px solid rgba(62, 65, 84, 0.5);
   }
 
   /* Glass effect for luxury feel */
   .glass-luxury {
     backdrop-filter: blur(12px);
-    background: oklch(0.98 0.008 85 / 0.7);
+    background: rgba(32, 34, 57, 0.7);
   }
 
   .dark .glass-luxury {
-    background: oklch(0.22 0.018 265 / 0.7);
+    background: rgba(32, 34, 57, 0.7);
   }
 }
